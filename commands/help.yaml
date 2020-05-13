@@ -1,0 +1,18 @@
+title: Available Commands
+author:
+  icon_url: https://cdn.discordapp.com/app-icons/708388451950526556/0c9b7101bb4843773f8ece2d92452b9b.png
+  name: GoRadBot
+color: 0x00ff00
+description:
+fields:
+  - name: "**%prefix help**"
+    value: show this info (🤯)
+    inline: false
+  - name: "**%prefix play url**"
+    value: plays the url in the connected voice channel (remember to join into the voice channel first)
+    inline: false
+  - name: "**%prefix stop**"
+    value: stops the dj
+    inline: false
+footer:
+  text: GoRadBot - v0.1

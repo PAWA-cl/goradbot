@@ -1,0 +1,8 @@
+title: Starting playing
+color: 0x00ff00
+description: "Connected to **%server**"
+image:
+  url: https://media0.giphy.com/media/XyaQAnihoZBU3GmFPl/giphy.gif
+author:
+  icon_url: https://cdn.discordapp.com/app-icons/708388451950526556/0c9b7101bb4843773f8ece2d92452b9b.png
+  name: GoRadBot
