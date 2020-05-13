@@ -45,4 +45,4 @@ Since this is an initial release, there are many things to solve and document, s
  - [ ] Profit
 
 # Support the maintainer
-Finally, if you think that my effort deserves a prize, or if you want to help to keep me motivated, i'll be always grateful if you can support the project. Please check the **Support** button! Thanks in advance.
+Finally, if you think that my effort deserves a prize, or if you want to help to keep me motivated, i'll be always grateful if you can support the project. Please check the **Sponsor** button! Thanks in advance.
