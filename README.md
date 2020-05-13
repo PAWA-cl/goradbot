@@ -1,6 +1,6 @@
 # About
 
-**GoRadBot**, a radio bot player for Discord. Made by @Snowpato for PAWA.cl
+**GoRadBot**, a radio bot player for Discord. Made by Patricio Pérez (me) for PAWA.cl
 
 # Why a bot?
 
