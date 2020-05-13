@@ -1,3 +1,4 @@
+
 # About
 
 **GoRadBot**, a radio bot player for Discord. Made by Patricio Pérez (me) for PAWA.cl
@@ -27,7 +28,19 @@ This initial release has only the basic support:
 - A Helper command
 - Bot Token configuration through a YAML file
 - Embed templates for the bot
-- Obviously, a play url/stop feature. 
+- Obviously, a play url/stop feature.
+
+# Requirements
+
+For the current implementation, you need to install `ffmpeg`. 
+
+## For developing
+
+If you want to test it in your workspace, then you need to install the following go packages:
+
+    go get -u github.com/bwmarrin/discordgo
+    go get -u github.com/ghodss/yaml
+    go get -u github.com/jonas747/dca
 
 # Improvements
 
