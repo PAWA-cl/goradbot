@@ -25,9 +25,9 @@ Well, since i'm interested to develop this as quick as possible, the most reason
 
 This initial release has only the basic support:
 
-- A Helper command
-- Bot Token configuration through a YAML file
-- Embed templates for the bot
+- A Helper command.
+- Bot Token configuration through a YAML file.
+- Embed templates for the bot, written in YAML for convenience.
 - Obviously, a play url/stop feature.
 
 # Requirements
