@@ -32,11 +32,11 @@ This initial release has only the basic support:
 
 # Requirements
 
-For the current implementation, you need to install `ffmpeg`. 
+For the current implementation, you need to install `ffmpeg`. This is used for the mp3 conversion to dca.
 
 ## For developing
 
-If you want to test it in your workspace, then you need to install the following go packages:
+If you want to test it in your workspace, then you also need to install the following go packages:
 
     go get -u github.com/bwmarrin/discordgo
     go get -u github.com/ghodss/yaml
