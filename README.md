@@ -1,7 +1,9 @@
 
-# About
+![Go](https://github.com/PAWA-cl/goradbot/workflows/Go/badge.svg?branch=develop)
 
-**GoRadBot**, a radio bot player for Discord. Made by Patricio Pérez (me) for PAWA.cl
+# GoRadBot
+
+Radio bot player for Discord. Made by Patricio Pérez (me) for PAWA.cl
 
 # Why a bot?
 
