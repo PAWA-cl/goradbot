@@ -1,4 +1,4 @@
-module goradbot
+module github.com/PAWA-cl/goradbot
 
 go 1.14
 
