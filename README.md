@@ -1,5 +1,5 @@
 
-![Go](https://github.com/PAWA-cl/goradbot/workflows/Go/badge.svg?branch=develop)
+![Go](https://github.com/PAWA-cl/goradbot/workflows/Go/badge.svg?branch=develop) [![Build Status](https://travis-ci.com/PAWA-cl/goradbot.svg?branch=develop)](https://travis-ci.com/PAWA-cl/goradbot)
 
 # GoRadBot
 
