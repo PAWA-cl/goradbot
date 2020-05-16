@@ -1,0 +1,4 @@
+# Your first step is set your token for the bot.
+# Here is explained how to do it.
+# https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token
+token: ${DISCORD_TOKEN}
