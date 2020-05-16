@@ -1,0 +1,15 @@
+language: go
+
+go:
+- "1.14.x"
+
+branches:
+  only:
+  - develop
+  - master
+
+before_install: cd init
+
+script:
+  - go test ${gobuild_args} ./...
+  - go build -o goradbot ${gobuild_args} ./...
