@@ -1,15 +1,18 @@
 language: go
-
 go:
-- "1.14.x"
-
+- 1.14.x
 branches:
   only:
   - develop
   - master
-
 before_install: cd init
-
 script:
-  - go test ${gobuild_args} ./...
-  - go build -o goradbot ${gobuild_args} ./...
+- go test ${gobuild_args} ./...
+- go build -o goradbot ${gobuild_args} ./...
+deploy:
+  provider: heroku
+  api_key:
+    secure: gQGll1oK/dQ8jWKh6OGMo7zdcuGvow+HUQ96ue5Jq70MFMxJP460yzo7CLPz1ObJBbWNT6WJfZVzW5TMn2eUIstNp+S+Q8EAUVJs8puIadgNhby4NB9Aw6coDM8Clr6rFvZMder/B3n1cMzHvjhUYGh79Obo4JWYnWaYjJhxyrwXF7OHUYckvdyIbtBV+bQUX5cqEfZxTwbw4cLxubeEc1AQY4eOGrvbqs/BCaOClTkXdnZYF3W0ZacC8ECIcz7ZvfNbmBdC/mkBxrdJvcVp88GklYH5HZdRoRG/1b7diVAw2NgH6Y1acfGSogT8rSmfVQwZ9niRn/YcxzsGhP06wPSiXSTXpKZttAmvYIbPHqx2aS1zd3KDk4o1A7astZf10J/UMsccbd32YrMOnIJS+CX9X2SBHRM7S+qdlinBXOMHJr3ocnTQYZcWDcGNosGhqPRSYhXB7FsbvdqU3HOyLe49ZESHcAm5bVLcayU34QTrMc23JcWpoY6eYXs1JHK19QK18KY4YIlUur+DglMgFLnLdRGB8BC8CoowUoBkxBnIBYU/PAlizEBTGknW7RKUb7+VxH9YaoKguFoOd8edNsDlydkToOXVirVsjhBvOAvXaBQiU7UmHlm3NgDnVnCSrnMjbjLYu03X+BNjDUmOWrvj/DkTvTna6aT93IkKkeE=
+  app:
+      master: goradbot-test
+      production: goradbot

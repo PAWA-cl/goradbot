@@ -1,16 +1,18 @@
 package main
 
 import (
-	"os"
+	"flag"
 
 	"github.com/PAWA-cl/goradbot"
 )
 
-var token string
-
 func init() {
-	token = os.Getenv("DISCORD_TOKEN")
+	flag.StringVar(&token, "t", "", "Bot Token")
+	flag.Parse()
 }
+
+var token string
+var buffer = make([][]byte, 0)
 
 func main() {
 	goradbot.Start(token)
