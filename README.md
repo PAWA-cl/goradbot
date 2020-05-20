@@ -3,7 +3,7 @@
 
 # GoRadBot
 
-Radio bot player for Discord. Made by Patricio Pérez (me) for PAWA.cl
+Radio bot player for Discord. Made by Patricio Pérez (me) for PAWA.cl. Built in Go 1.14.
 
 # Why a bot?
 
@@ -38,7 +38,7 @@ For the current implementation, you need to install `ffmpeg`. This is used for t
 
 ## For developing
 
-If you want to test it in your workspace, then you also need to install the following go packages:
+If you want to test it in your workspace, then you also need to install the following go packages (if you have problems with go mod):
 
     go get -u github.com/bwmarrin/discordgo
     go get -u github.com/ghodss/yaml
